@@ -1,2 +1,2 @@
-# Godot_UI_Kit
+# Godot_Dynamic
 A godot kit that makes creating interactive UI faster.
