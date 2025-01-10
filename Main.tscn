@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcg6k412m0sin"]
+
+[ext_resource type="Script" path="res://addons/godot_dynamic/dynamic_menu.gd" id="1_qlwrp"]
+
+[node name="Main" type="Node"]
+
+[node name="DynamicMenu" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_qlwrp")

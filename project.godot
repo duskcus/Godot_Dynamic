@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Godot_Dynamic"
+run/main_scene="res://Main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://addons/assets/menu.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_dynamic/plugin.cfg")
 
 [rendering]
 
