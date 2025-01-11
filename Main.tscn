@@ -1,10 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://bcg6k412m0sin"]
+[gd_scene load_steps=3 format=3 uid="uid://bcg6k412m0sin"]
 
-[ext_resource type="Script" path="res://addons/godot_dynamic/dynamic_menu.gd" id="1_qlwrp"]
+[ext_resource type="Script" path="res://addons/godot_dynamic/scripts/dynamic_menu.gd" id="1_mpji8"]
+[ext_resource type="Script" path="res://addons/godot_dynamic/scripts/dynamic_input.gd" id="2_yd20r"]
 
 [node name="Main" type="Node"]
 
-[node name="DynamicMenu" type="TextureRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("1_qlwrp")
+[node name="DynamicMenu" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mpji8")
+
+[node name="DynamicInput" type="Node" parent="."]
+script = ExtResource("2_yd20r")

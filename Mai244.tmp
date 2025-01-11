@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcg6k412m0sin"]
+
+[ext_resource type="Script" path="res://addons/godot_dynamic/dynamic_input/dynamic_input.gd" id="1_upmxy"]
+[ext_resource type="Script" path="res://addons/godot_dynamic/dynamic_menu/dynamic_menu.gd" id="2_os451"]
+
+[node name="Main" type="Node"]
+
+[node name="DynamicInput" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_upmxy")
+
+[node name="DynamicMenu" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_os451")
