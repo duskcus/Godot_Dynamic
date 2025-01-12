@@ -13,6 +13,12 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_mpji8")
+navbar_items = ["Offline", "Online", "Profile", "Market", "Settings"]
+menu_items = ["Offline"]
+navbar = null
+header = null
+menu = null
+tooltip = null
 
 [node name="DynamicInput" type="Node" parent="."]
 script = ExtResource("2_yd20r")
