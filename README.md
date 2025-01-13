@@ -1,11 +1,11 @@
 # Godot_Dynamic
-WIP: A godot kit that makes creating interactive UI faster.
+**WIP:** A godot kit that makes creating interactive UI faster.
 
-Curently has
+**Curently has**
 - Dynamic nav menu
 - Dynamic menu items
 
-Future idea's starter kit
+**Future idea's starter kit**
 - Saving and loading with JSON
 - Dynamic input mapper
 - Dynamic HUD
@@ -15,3 +15,6 @@ Future idea's starter kit
 - Dialogue manager
 - Enemy AI
 - Dynamic audio switcher
+
+## How to use
+
