@@ -20,6 +20,7 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 - Dialogue manager
 - Enemy AI
 - Dynamic audio switcher
+- Peer to peer networking
 
 ## How to use
 1. First add this plugin into your addons folder, you might need to restart Godot.
