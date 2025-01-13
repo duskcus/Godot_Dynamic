@@ -11,15 +11,17 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 - Dynamic input mapper
 - Saving and loading with JSON
 
-**Future idea's starter kit**
+**Future components**
 - Dynamic HUD
 - In game menu
 - Achievement system
 - Inventory system
 - Dialogue manager
-- Enemy AI
+
+**Possible future components**
 - Dynamic audio switcher
 - Peer to peer networking
+- Enemy AI
 
 ## How to use
 1. First add this plugin into your addons folder, you might need to restart Godot.
