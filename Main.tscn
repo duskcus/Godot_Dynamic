@@ -1,20 +1,17 @@
-[gd_scene load_steps=4 format=3 uid="uid://bcg6k412m0sin"]
+[gd_scene load_steps=3 format=3 uid="uid://bcg6k412m0sin"]
 
 [ext_resource type="Script" path="res://addons/godot_dynamic/scripts/dynamic_menu.gd" id="1_mpji8"]
 [ext_resource type="Script" path="res://addons/godot_dynamic/scripts/dynamic_input.gd" id="2_yd20r"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_441fc"]
-bg_color = Color(1, 1, 1, 1)
-
 [node name="Main" type="Node"]
 
-[node name="Panel" type="Panel" parent="."]
+[node name="TextureRect" type="ColorRect" parent="."]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_441fc")
+color = Color(0.393086, 0.393086, 0.393085, 1)
 
 [node name="DynamicMenu" type="Control" parent="."]
 layout_mode = 3
