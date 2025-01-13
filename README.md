@@ -22,7 +22,7 @@
 - Dynamic audio switcher
 
 ## How to use
-1. First add this plugin into your addons folder, you might need to restart godot.
+1. First add this plugin into your addons folder, you might need to restart Godot.
 2. In the folder you can find the names of each custom node, if your not going to use them you may delete them to reduce bloat. Probably when your project is finished.
 
 **Dynamic nav menu**
