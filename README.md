@@ -4,8 +4,7 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 ## Roadmap
 
 **Curently has**
-- Dynamic nav menu
-- Dynamic menu items
+- Dynamic menu
 
 **In progress**
 - Dynamic menu themes
