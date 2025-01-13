@@ -1,5 +1,5 @@
 # Godot Dynamic
-**WIP:** A Godot kit that makes development fast. It uses Godots build in plugin system to create custom nodes you'd often use in your game. Because its dynamic you can prototype faster giving you more time to design the game.
+**WIP:** A Godot kit that makes development fast. It uses Godots build in plugin system to create custom nodes you'd often use in your game, which reduces boilerplate. Because its dynamic you can prototype faster giving you more time to design the game.
 
 ## Roadmap
 
