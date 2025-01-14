@@ -3,7 +3,7 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 
 ## Roadmap
 
-**Curently implemented**
+**Curent functionality**
 - Dynamic menu
 
 **In progress**
