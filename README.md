@@ -4,7 +4,7 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 ## Roadmap
 
 **Current functionality**
-- Dynamic menu
+- Dynamic main menu
 
 **In progress**
 - Dynamic menu themes
@@ -13,7 +13,7 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 
 **Future components**
 - Dynamic HUD
-- In game menu
+- In game dynamic menu
 - Achievement system
 - Inventory system
 - Dialogue manager
