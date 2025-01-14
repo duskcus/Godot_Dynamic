@@ -4,9 +4,10 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 ## Roadmap
 
 **Current functionality**
-- Dynamic main menu
+Plugin is still in alpha
 
 **In progress**
+- Dynamic main menu
 - Dynamic menu themes
 - Dynamic input mapper
 - Saving and loading with JSON
