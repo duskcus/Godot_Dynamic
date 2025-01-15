@@ -6,20 +6,20 @@ A Godot kit that makes development fast. It uses Godots build in plugin system t
 **Current functionality**
 Plugin is still in alpha
 
-**In progress**
+**In progress:**
 - Dynamic main menu
 - Dynamic menu themes
 - Dynamic input mapper
 - Saving and loading with JSON
 
-**Future components**
+**Future components:**
 - Dynamic HUD
 - In game dynamic menu
 - Achievement system
 - Inventory system
 - Dialogue manager
 
-**Possible future components**
+**Possible future components:**
 - Dynamic audio switcher
 - Peer to peer networking
 - Enemy AI
