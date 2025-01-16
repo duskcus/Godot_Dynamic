@@ -1,5 +1,5 @@
 # Godot Dynamic
-A Godot kit that makes development fast. It uses Godots build in plugin system to create custom nodes you'd often use in your game, which reduces boilerplate. Because its dynamic you can prototype faster giving you more time to design the game.
+Godot Dynamic is meant to remove repetive tasks from your normal development cycle. It uses Godot's default plugin system to create custom nodes, which allow for better scaffolding. This allows for faster prototyping, and should reduce boilerplate giving you more time to design your game/app, without impacting performance.
 
 ## Roadmap
 
