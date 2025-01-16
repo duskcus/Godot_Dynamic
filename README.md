@@ -1,5 +1,5 @@
 # Godot Dynamic
-Godot Dynamic is meant to remove repetive tasks from your normal development cycle. It uses Godot's default plugin system to create custom nodes, which allow for better scaffolding. This allows for faster prototyping, and should reduce boilerplate giving you more time to design your game/app, without impacting performance.
+Godot Dynamic is meant to remove repetive tasks from your normal development cycle, without impacting performance. It uses Godot's default plugin system to create custom nodes, which allow for better scaffolding. This allows for faster prototyping, and should reduce boilerplate giving you more time to design your game/app.
 
 ## Roadmap
 
