@@ -1,7 +1,16 @@
+@tool
 extends Control
 
-@export var navbar_links : PackedStringArray
-@export var menu_links : Array
+@export var test : Dictionary
+
+@export var navbar_links : PackedStringArray :
+	set(value):
+		navbar_links = value
+		
+@export var menu_links : Array :
+	set(value):
+		menu_links = value
+		
 @export var navbar : bool = true
 @export var header : bool = true
 @export var menu : bool = true
@@ -11,6 +20,7 @@ var hbox = HBoxContainer
 var button : Button
 var path
 var scene : PackedScene = preload("res://addons/godot_dynamic/scenes/dynamic_menu/dynamic_menu.tscn")
+var instance
 
 	#var path = str(menu1.get_path()) + "/" + menu_items[active_item]
 	#var target_node = get_node(path)
@@ -18,7 +28,8 @@ var scene : PackedScene = preload("res://addons/godot_dynamic/scenes/dynamic_men
 
 func _enter_tree():
 	# Instance the scene
-	add_child(scene.instantiate())
+	instance = scene.instantiate()
+	add_child(instance)
 	
 	if navbar_links:
 		var value = 0
@@ -62,3 +73,7 @@ func _enter_tree():
 				get_node(path).add_child(button)
 	
 			value += 1
+
+
+func _exit_tree() -> void:
+	instance.queue_free()
