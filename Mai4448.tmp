@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://bcg6k412m0sin"]
+[gd_scene load_steps=3 format=3 uid="uid://bcg6k412m0sin"]
 
 [ext_resource type="Script" path="res://addons/godot_dynamic/scripts/dynamic_menu.gd" id="1_aadj0"]
-[ext_resource type="Theme" uid="uid://cm1volgnyevvt" path="res://addons/assets/theme.tres" id="1_tlnpr"]
 [ext_resource type="Script" path="res://addons/godot_dynamic/scripts/dynamic_input.gd" id="2_yd20r"]
 
 [node name="Main" type="Node"]
@@ -21,10 +20,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme = ExtResource("1_tlnpr")
 script = ExtResource("1_aadj0")
-navbar = false
-menu_links = [PackedStringArray("Super", "Menu", "Deluxe", "Combo")]
+navbar_links = PackedStringArray("1", "2", "3", "4")
+menu_links = [PackedStringArray("1", "2", "3", "4"), PackedStringArray("1", "2", "3", "4"), PackedStringArray("1", "2", "3", "4"), PackedStringArray("1", "2", "3", "4")]
 
 [node name="DynamicInput" type="Node" parent="."]
 script = ExtResource("2_yd20r")
