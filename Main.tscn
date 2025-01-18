@@ -23,7 +23,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_tlnpr")
 script = ExtResource("1_aadj0")
-navbar = false
+navbar_links = PackedStringArray("Offline", "Online", "Profile")
 menu_links = [PackedStringArray("Super", "Menu", "Deluxe", "Combo")]
 
 [node name="DynamicInput" type="Node" parent="."]

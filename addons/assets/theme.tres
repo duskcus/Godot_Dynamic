@@ -1,4 +1,7 @@
-[gd_resource type="Theme" format=3 uid="uid://cm1volgnyevvt"]
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cm1volgnyevvt"]
+
+[ext_resource type="FontFile" uid="uid://ct8nqp6qissbs" path="res://addons/assets/IBMPlexMono-Regular.ttf" id="1_i1iwf"]
 
 [resource]
+default_font = ExtResource("1_i1iwf")
 default_font_size = 24
