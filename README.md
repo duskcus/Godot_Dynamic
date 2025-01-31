@@ -1,5 +1,5 @@
 # Godot Dynamic
-Godot Dynamic provides flexible, ready-made components for common tasks like menus, inventories, and saving, saving you the trouble of re-creating them in every project.
+Godot Dynamic provides easily customisable components for common tasks like menus, saving you the trouble of setting them up in every unfinished side project.
 
 ## Roadmap
 
